@@ -1,2 +1,3 @@
-# StratocasterFR
-Schematics and Bode Plots for Fender Stratocaster electronics. Large-signal analysis for circuits of the 5 pickup settings.
+# StratFR
+Fender Stratocaster electronics Frequency Response (Bode) Plots and Equivalent Circuit Schematics with PyQt GUI
+Tone Controls and Pickup settings
