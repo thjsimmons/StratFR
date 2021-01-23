@@ -5,6 +5,7 @@ tone controls (all pickup settings)
 Requirements:
 Python, Numpy, PyQt4
 
-Run `python StratFR.py`
+Run `python StratFR.py` <br />
+
 ![](gui.png?raw=true) 
 
