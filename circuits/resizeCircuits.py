@@ -1,3 +1,8 @@
+"""
+This file resizes schematics to constant size and sets background color 
+to the Qt stylesheet color
+"""
+
 import cv2
 import math
 
@@ -9,7 +14,6 @@ def shiftBG(img):
             pixel = img[i, j]
             if pixel[0] == 235 and pixel[1] == 235 and pixel[2] == 235:
                 output[i, j] = [240, 240, 240]
-
     return output
     
 path = ''
@@ -25,7 +29,6 @@ for imName in imList:
     x1 = math.ceil((img.shape[1]-newSize[1])/2)
     x2 = img.shape[1] - math.floor((img.shape[1]-newSize[1])/2)
     
-
     if imName == "N.png":
         crop_img = img[int(y1):int(y2), int(x1):int(x2)-1]
     else:
