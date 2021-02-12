@@ -1,6 +1,6 @@
 # StratFR
 Fender Stratocaster electronics Bode plots & circuit analysis with PyQt GUI
-tone controls (all pickup settings)
+tone controls for the 5 pickup settings
 
 Requirements:
 Python, Numpy, PyQt4
